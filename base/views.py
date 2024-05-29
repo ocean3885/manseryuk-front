@@ -9,10 +9,10 @@ def index(request):
     
     # 요청 매개변수 설정
     params = {
-        "year": 2023,
-        "month": "1",
-        "day": "1",
-        "sl": "양력",
+        "year": 1982,
+        "month": "10",
+        "day": "26",
+        "sl": "음력",
         "gen": "male"
     }
     
