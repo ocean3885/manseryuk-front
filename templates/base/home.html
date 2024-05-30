@@ -1,0 +1,16 @@
+{% extends 'index.html' %} 
+
+{% block content %}
+<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <!-- Grid -->
+    <div class="grid md:grid-cols-2 items-start gap-12">
+  
+      {%include "./components/form.html"%}
+      {%include "./components/about.html"%}
+  
+  
+    </div>
+    <!-- End Grid -->
+</div>
+
+{% endblock content %}
